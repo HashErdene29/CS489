@@ -1,0 +1,11 @@
+The system should allow all users to be able to Sign-in.
+The system should allow patient to cancel and change their appointments.
+The system should allow office manager to register Dentists who apply to join their network of dental surgeries.
+The system should allow office manager to enroll new Patients.
+The system should allow patients to request appointments by call-in or submitting an online form on the ADS website.
+The system should allow office manager to send confirmation email notifying the patient about the appointment.
+The system should allow dentist to see their listing of all their appointments and patients detail.
+The system should allow to store information about each surgery.
+The system should allow patients to see their appointments and dentists information.
+The system should allow to limit the appointments for 5 times in any given week per doctor.
+The system should allow to prevent patient to make new appointment, if they have an outstanding, unpaid bill for dental service they have received in the past.
