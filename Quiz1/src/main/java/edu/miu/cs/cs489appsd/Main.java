@@ -10,26 +10,26 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         List<EmailAddress> emailAddressList = new ArrayList<>();
-        emailAddressList.add(new EmailAddress(00111, "johnsmith@gmail.com", "Personal"));
-        emailAddressList.add(new EmailAddress(00112, "johnsmith@workemail.com", "Work"));
+        emailAddressList.add(new EmailAddress(111, "johnsmith@gmail.com", "Personal"));
+        emailAddressList.add(new EmailAddress(112, "johnsmith@workemail.com", "Work"));
 
         List<EmailAddress> emailAddressList2 = new ArrayList<>();
-        emailAddressList2.add(new EmailAddress(00511, "lauraclint@gmail.com", "Personal"));
+        emailAddressList2.add(new EmailAddress(511, "lauraclint@gmail.com", "Personal"));
 
         List<PhoneNumber> phoneNumberList = new ArrayList<>();
-        phoneNumberList.add(new PhoneNumber(00121, 6412331234l, "Mobile"));
+        phoneNumberList.add(new PhoneNumber(121, 6412331234l, "Mobile"));
 
         List<PhoneNumber> phoneNumberList2 = new ArrayList<>();
-        phoneNumberList2.add(new PhoneNumber(00521, 6412334567l, "Mobile"));
-        phoneNumberList2.add(new PhoneNumber(00522, 8002331234l, "Work"));
+        phoneNumberList2.add(new PhoneNumber(521, 6412334567l, "Mobile"));
+        phoneNumberList2.add(new PhoneNumber(522, 8002331234l, "Work"));
 
         // CREATE
         List<Contact> contactList = new ArrayList<>();
-        contactList.add(new Contact(001, "John", "Smith", "Technology", "Software Engineer", emailAddressList, phoneNumberList));
-        contactList.add(new Contact(002, "Tom", "Clark", "Marketing", "Manager"));
-        contactList.add(new Contact(003, "Tom", "Clark", "Marketing", "Manager"));
-        contactList.add(new Contact(004, "Tom", "Clark", "Marketing", "Manager"));
-        contactList.add(new Contact(005, "Laura", "Clint", "Communication", "Employee", emailAddressList2, phoneNumberList2));
+        contactList.add(new Contact(1, "John", "Smith", "Technology", "Software Engineer", emailAddressList, phoneNumberList));
+        contactList.add(new Contact(2, "Tom", "Clark", "Marketing", "Manager"));
+        contactList.add(new Contact(3, "Tom", "Clark", "Marketing", "Manager"));
+        contactList.add(new Contact(4, "Tom", "Clark", "Marketing", "Manager"));
+        contactList.add(new Contact(5, "Laura", "Clint", "Communication", "Employee", emailAddressList2, phoneNumberList2));
 
 //        Collections.sort(contactList, Comparator.comparing(Contact::getFirst_name));
         printContacts(contactList);
