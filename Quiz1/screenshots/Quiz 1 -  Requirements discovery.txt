@@ -1,0 +1,5 @@
+The system should allow user to search through the contacts.
+The system should allow user to add new contacts.
+The system should allow user to update existing contacts.
+The system should allow user to delete old contacts.
+The system should allow user to merge duplicate contacts.
