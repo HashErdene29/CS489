@@ -1,0 +1,20 @@
+1. What is Spring?
+Spring is a framework in Java platform. The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+2. What is Spring Boot?
+Spring Boot is a tool that makes developing web applications and microservices with Spring Framework faster and easier. To make it faster and easier, there is three main capabilities.
+- Autoconfiguration
+- An opinionated approach to configuration
+- The ability to create stand-alone applications
+3. What is the relation between Spring platform and Spring Boot?
+Spring Boot is like a specialized tool within the Spring Platform toolbox. It utilizes Spring Framework’s features but streamlines the development process.
+4. What is the relation between Spring platform and Spring framework?
+Spring boot is an basically extension of the Spring framework, which removes the section of code that are repeated in
+multiple places that required for setting up a Spring application.
+5. What is Dependency Injection and how is it done in the Spring platform/framework?
+Dependency Injection is a fundamental aspect of the Spring framework, through which the Spring container injects objects into other objects or dependencies. In other words, this allows for loose coupling of components and moves the responsibility of managing components onto the container. 
+How is it done in Spring framework
+- constructor injection, Pass dependencies through constructors.
+- setter injection, Set dependencies using setter methods.
+- field injection, Inject dependencies directly into fields
+6. What is Inversion of Control (IoC) and how is it related to Spring?
+Inversion of Control is a principle in software engineering which transfers the control of objects or portions of a program to a container or framework. Often use it in the context of object-oriented programming. Spring framework provides IoC container. The container manages objects and their dependencies. It creates the objects, configures and assembles their dependencies, manages their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application.
