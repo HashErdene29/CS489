@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lab10:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b659b293-664c-4043-9d25-022d3c70f4b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/src/main/java/cs489/apsd/lab6/Lab6Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/src/main/java/cs489/apsd/lab6/lab6Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson7-rest-webapi/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockerExecCommands">
+    <ExecCommand>
+      <option name="command" value="mysql -u root -p" />
+    </ExecCommand>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2f84hHwOYphkUWXft7vw0ddiOTh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.MySQLConfig.executor": "Run",
+    "Maven.lab6 [clean].executor": "Run",
+    "Maven.lab6 [validate].executor": "Run",
+    "Maven.lab7 [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Lab6Application.executor": "Run",
+    "Spring Boot.lab7.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jade/Documents/GitHub/CS489/lab10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Docker",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.lab7">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lab10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lab10" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab7" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="lab10" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cs489.apsd.lab10.lab10Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQLConfig" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mysql:latest" />
+          <option name="containerName" value="MySQLContainer" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="MYSQL_ROOT_PASSWORD" />
+                <option name="value" value="test1234" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="MYSQL_DATABASE_NAME" />
+                <option name="value" value="ads_db" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.MySQLConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b659b293-664c-4043-9d25-022d3c70f4b7" name="Changes" comment="" />
+      <created>1713169488156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713169488156</updated>
+      <workItem from="1713169489183" duration="2806000" />
+      <workItem from="1713378792420" duration="1017000" />
+      <workItem from="1713419904937" duration="933000" />
+      <workItem from="1713420893602" duration="2343000" />
+      <workItem from="1713423880446" duration="3629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
