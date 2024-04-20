@@ -9,13 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b659b293-664c-4043-9d25-022d3c70f4b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b659b293-664c-4043-9d25-022d3c70f4b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -30,6 +35,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PatientTest.executor": "Run",
+    "JUnit.PatientTest.findPatientByIdTest.executor": "Debug",
     "Maven.lab6 [clean].executor": "Run",
     "Maven.lab6 [validate].executor": "Run",
     "Maven.lab7 [clean].executor": "Run",
@@ -61,7 +68,22 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.lab7Application">
+  <component name="RunManager" selected="JUnit.PatientTest">
+    <configuration name="PatientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab11_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs489.apsd.lab11_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs489.apsd.lab11_2" />
+      <option name="MAIN_CLASS_NAME" value="cs489.apsd.lab11_2.PatientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab11_2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="lab11_2" />
@@ -78,6 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PatientTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,7 +125,8 @@
       <workItem from="1713169489183" duration="2806000" />
       <workItem from="1713466539881" duration="1676000" />
       <workItem from="1713552167660" duration="43000" />
-      <workItem from="1713557505399" duration="718000" />
+      <workItem from="1713557505399" duration="929000" />
+      <workItem from="1713590699535" duration="2630000" />
     </task>
     <servers />
   </component>
